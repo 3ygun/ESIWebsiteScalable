@@ -1,0 +1,88 @@
+/*
+ * Dark Gray: #2A3440;
+ * Medium Gray: #364252;
+ * Light Gray: #4B5D73;
+ *
+ * Red: #600000;
+ *
+ */
+
+body {
+	font-family: Helvetica;
+	background-color: #4B5D73;
+}
+
+footer {
+	width: 96%;
+	background-color: #364252;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 2%;
+}
+
+section {
+	width: 96%;
+	background-color: #364252;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+}
+
+@media (min-width: 768px) { /* So if it's a big screen, I only take a little place */
+	footer {
+		width: 730px;
+		padding: 15px;
+	}
+
+	section {
+		width: 730px;
+		padding: 15px;
+	}
+}
+
+.my-container {
+	background-color: #2A3440;
+	padding: 15px;
+}
+
+.name {
+	text-align: center;
+}
+
+.spacer {
+	height: 50px;
+}
+
+.line-up {
+	position: relative;
+}
+
+.center{
+	text-align: center;
+}
+
+.pic {
+	margin-top: 0px;
+	width: 276px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scale-image {
+	max-width: 276px;
+}
+
+@media screen and (min-width: 380px) {
+	/* Waiting for stuff */
+}
+
+@media screen and (min-width: 768px) { /* When it doesn't include the drop down menu */
+	.pic {
+		margin-top: 28px;
+	}
+
+	.scale-image {
+		max-width: 130px;
+	}
+}
