@@ -1,4 +1,4 @@
-3ygun.github.io
-===============
+ESI Website Scalable
+====================
 
-David Soller's personal site.  Created to show off his ability to use HTML 5, CSS 3, JavaScript, BootStrap, general design skills, GitHub, and version control.
+E-Sports Initiative (ESI) redesigned website focusing on scalability and readability.  Currently built in HTML, CSS, and JavaScript.
