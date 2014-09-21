@@ -20,48 +20,93 @@
     <link href="css/layout.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-	<header>
-		<!-- Navigation -->
-	    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	        <div class="container">
-	            <!-- Brand and toggle get grouped for better mobile display -->
-	            <div class="navbar-header">
-	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	                    <span class="sr-only">Toggle navigation</span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                </button>
-	                <a id="logo" class="pull-left" href="index.html"><img src="images/esi_logo_transparent.png" /></a>
-	            </div>
-	            <!-- Collect the nav links, forms, and other content for toggling -->
-	            <div class="collapse navbar-collapse pull-right" id=".navbar-collapse">
-	                <ul class="nav navbar-nav navbar-right">
-	                    <li><a href="events.html">Events</a></li>
-	                    <li class="dropdown">
-	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <b class="caret"></b></a>
-	                        <ul class="dropdown-menu navbar-nav">
-								<li><a href="League.html">League of Legends</a></li>
-								<li><a href="SSB.html">Super Smash Bros</a></li>
-                                <li><a href="Dota2.html">Dota 2</a></li>
-								<li><a href="Starcraft.html">Starcraft 2</a></li>
-								<li><a href="Hearthstone.html">Hearthstone</a></li>
-								<li><a href="Sports.html">Fifa / Madden / Sports </a></li>
-	                        </ul>
-	                    </li>
-	                    <li><a href="about-us.html">About Us</a></li>
-	                    <li><a href="sponsors.html">Sponsors</a></li>
-	                    <li><a href="feedback.html">Feedback</a></li>
-	                    <li><a href="join.html">Join ESI</a></li>
-	                </ul>
-	            </div>
-	            <!-- /.navbar-collapse -->
-	        </div>
-	        <!-- /.container -->
-	    </nav>
+	<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="logo" class="pull-left" href="index.html"><img src="img/esi_logo_transparent.png" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-right" id=".navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="events.html">Events</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+							<li><a href="League.html">League of Legends</a></li>
+							<li><a href="SSB.html">Super Smash Bros</a></li>
+                            <li><a href="Dota2.html">Dota 2</a></li>
+							<li><a href="Starcraft.html">Starcraft 2</a></li>
+							<li><a href="Hearthstone.html">Hearthstone</a></li>
+							<li><a href="Sports.html">Fifa / Madden / Sports </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="join.html">Join ESI</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <center><img class="center" src="img/fundraisingEventsEdited.jpg" alt ="" /></center>
+                <div class="carousel-caption">
+                    <h2>Tournaments & Events</h2>
+                </div>
+            </div>
+            <div class="item">
+                <center><img class="center" src="img/shuffle5pic1.jpeg" alt ="" /></center>
+                <div class="carousel-caption">
+                    <h2>Shuffle - The OSU Smash tournament</h2>
+                </div>
+            </div>
+            <div class="item">
+                <center><img class="center" src="img/charityEdited.jpg" alt ="" /></center>
+                <div class="carousel-caption">
+                    <h2>ESI proceeds support Nationwide Children's Hospital</h2>
+                </div>
+            </div>
+            <div class="item">
+                <center><img class="center" src="img/shuffle5pic2.jpg" alt ="" /></center>
+                <div class="carousel-caption">
+                    <h2>Shuffle 5</h2>
+                </div>
+            </div>            
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
     </header>
-    <div class="spacer"></div>	
+    	
 	<section class="about" id="about">
 		<div class="my-container">
 		<!-- An about me piece: Why I created the site, What do I want to do, link to my GitHub, link to resume (without address), etc. -->
@@ -176,6 +221,5 @@
         interval: 5000 //changes the speed
     })
     </script>
-
 </body>
 </html>
