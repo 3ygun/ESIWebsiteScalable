@@ -26,6 +26,30 @@
   }
 }
 
+.col-3-group > div {
+  padding: 1em 1em 0;
+}
+
+@media (max-width: 50em) and (min-width: 30em) {
+  .col-3-group > div {
+    float: left;
+    width: 50%;
+  }
+  .col-3-group > div:nth-child(odd) {
+    clear: left;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .col-3-group {
+    overflow: hidden;
+  }
+  .col-3-group > div {
+    float: left;
+    width: 33.3333333%;
+  }
+}
+
 .col-5-group {
   overflow: hidden;
 }
