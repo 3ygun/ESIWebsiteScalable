@@ -16,7 +16,7 @@ body {
 }
 footer {
 	width: 96%;
-	text-align: center;
+	height: 40px;
 	padding: 2%;
 }
 section {
@@ -71,6 +71,10 @@ header.carousel .fill {
 .charity-bar > h2 { /* $$$$ line */
 	padding-top: 10px;
 }
+
+
+/* Footer Bar */
+.footer {}
 
 
 .my-container {
