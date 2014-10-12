@@ -7,18 +7,54 @@
 .game-box:hover {
 	background-color: #F1F1F1;
 }
-.league-pic {
-	width: 300px; /* Might have to change on a different image */
-	margin-top: 100px;
-	margin-bottom: auto;
-}
-.smash-pic {
+
+
+/* Game Images */
+.smash-box {
 	width: 300px;
-	margin-top: 100px;
-	margin-bottom: auto;
+	margin-top: 90px;
 }
-.dota-pic {
+.league-box {
+	width: 300px; /* Might have to change on a different image */
+	margin-top: 90px;
+}
+.dota-box {
 	width: 300px;
 	margin: none;
-	padding: none;
+}
+.starcraft-box {
+	width: 300px;
+	margin-top: 70px;
+}
+.mystery-box {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+}
+.sports-box {
+	width: 300px;
+	margin-top: 60px;
+}
+
+
+
+/* Game Images */
+.smash-pic {
+	width: inherit;
+}
+.league-pic {
+	width: inherit; /* Might have to change on a different image */
+}
+.dota-pic {
+	width: inherit;
+}
+.starcraft-pic {
+	width: inherit;
+}
+.mystery-pic {
+	width: inherit;
+	height: inherit;
+}
+.sports-pic {
+	width: inherit;
 }
