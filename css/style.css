@@ -61,6 +61,22 @@ section {
 .smallify {
 	font-size: 0.80em;
 }
+.spacer {
+	height: 50px;
+}
+.line-up {
+	position: relative;
+}
+.center-text {
+	text-align: center;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.underline {
+	text-decoration: underline;
+}
 
 
 
@@ -106,17 +122,15 @@ header.carousel .fill {
 	color: #009933;
 	font-size: 0.80em;
 }
-.events-and-media > div > h1 {
-	text-decoration: underline;
-}
 .events-and-media > div > ul {
 	list-style: none;
 }
-.boxlink:link {
+.boxlink {
 	color: inherit;
 }
 .boxlink:hover {
 	text-decoration: none;
+	color: inherit;
 }
 .boxlink > div {
 	padding: 1%;
@@ -127,26 +141,12 @@ header.carousel .fill {
 }
 
 
-
-
 /* Footer Bar */
-.footer {}
-
-
 .my-container {
 	background-color: #2A3440;
 	padding: 15px;
 }
 .name {
-	text-align: center;
-}
-.spacer {
-	height: 50px;
-}
-.line-up {
-	position: relative;
-}
-.center-text {
 	text-align: center;
 }
 .pic {

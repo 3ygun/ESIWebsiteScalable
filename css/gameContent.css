@@ -1,0 +1,24 @@
+/* Games index page*/
+.game-box {
+	width: 320px;
+	height: 300px;
+	padding: 10px;
+}
+.game-box:hover {
+	background-color: #F1F1F1;
+}
+.league-pic {
+	width: 300px; /* Might have to change on a different image */
+	margin-top: 100px;
+	margin-bottom: auto;
+}
+.smash-pic {
+	width: 300px;
+	margin-top: 100px;
+	margin-bottom: auto;
+}
+.dota-pic {
+	width: 300px;
+	margin: none;
+	padding: none;
+}
