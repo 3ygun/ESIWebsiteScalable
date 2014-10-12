@@ -140,6 +140,13 @@ header.carousel .fill {
 .boxlink:hover > div {
 	background-color: #F1F1F1;
 }
+.no-hyperlink {
+	color: black;
+	text-decoration: none;
+}
+.no-hyperlink:hover {
+	text-decoration: underline;
+}
 
 
 /* Footer Bar */
