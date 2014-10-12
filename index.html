@@ -8,7 +8,7 @@
 	<title>E-Sports Initiative</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,8 +17,9 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="css/layout.css" rel="stylesheet" type="text/css">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/layout.css" rel="stylesheet" type="text/css">
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/gameContent.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -121,7 +122,7 @@
     <section>
     	<div class="col-2-group events-and-media">
     		<div> <!-- Events -->
-    			<h1>Events</h1>
+    			<h1 class="underline">Events</h1>
     			<ul>
                     <li>
                         <a href="http://coppy.me/#/view/FUHOGbBSn.png" class="boxlink">
@@ -162,23 +163,25 @@
     	</div>
     </section>
 
+    <!-- Games -->
     <section>
+        <h1 class="center-text underline">Games</h1>
     	<div class="col-3-group">
-		    <div>
-			    <!-- <img src="fundraisingEventsEdited.jpg"> -->
-			    <h4>Fundraising Events</h4>
-			    <p>At the heart of E-Sports Initiative and its nonprofit mission is a sustainable source of financial support: our video game tournaments and events. These fundraisers provide an environment for a community of both casual and competitive video game players to compete for prizes and support our causes- we thank you for your continued patronage.</p>
+		    <div class="game-box">
+                <a href="games/smash.html">
+    			    <img class="smash-pic" src="img/smash_bros_logo.png" />
+                </a>
 		    </div>
-		    <div>
-		    	<!-- <img src="industryNewsEdited.jpg"> -->
-		    	<h4>Industry News</h4>
-		    	<p>E-Sports Initiative provides news coverage of upcoming trends, innovations, and the rapidly-changing landscape in the video game and e-sports industries. We are committed to providing unbiased reporting to best prepare our readership and aspiring next-generation employees for a professional career in these industries.</p>
-		    </div>
-		    <div>
-		    	<!-- <img src="charityEdited.jpg"> -->
-		    	<h4>Community Service Events</h4>
-		    	<p>As E-Sports Initiative continues to grow, so does its commitment to community; we espouse social responsibility in tandem to our nonprofit mission. We recognize that there are more ways to give back than simply monetary contributions- learn more about our ongoing community service events and how you can be a part of a legacy of paying it forward!</p>
-		    </div>
+		    <div class="game-box">
+                <a href="games/league.html">
+                    <img class="league-pic" src="img/league_of_legends_logo_transparent.png" />
+                </a>
+            </div>
+		    <div class="game-box">
+                <a href="games/dota.html">
+                    <img class="dota-pic" src="img/dota_2_logo_transparent.png" />
+                </a>
+            </div>
 	  </div>
 
     </section>	
