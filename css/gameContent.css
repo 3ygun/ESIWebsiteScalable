@@ -19,10 +19,19 @@
 	margin-top: 90px;
 }
 .dota-box {
-	width: 300px;
-	margin: none;
+	width: 250px;
+	height: 250px;
+	margin-top: 20px;
 }
 .starcraft-box {
+	width: 300px;
+	margin-top: 70px;
+}
+.hearthstone-box {
+	width: 300px;
+	margin-top: 60px;
+}
+.csgo-box {
 	width: 300px;
 	margin-top: 70px;
 }
@@ -47,8 +56,15 @@
 }
 .dota-pic {
 	width: inherit;
+	height: inherit;
 }
 .starcraft-pic {
+	width: inherit;
+}
+.hearthstone-pic {
+	width: inherit;
+}
+.csgo-pic {
 	width: inherit;
 }
 .mystery-pic {

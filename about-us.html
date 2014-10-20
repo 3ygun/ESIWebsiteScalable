@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>E-Sports Initiative</title>
+    <title>E-Sports Initiative</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,12 +17,14 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="css/layout.css" rel="stylesheet" type="text/css">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/layout.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/gameContent.css" rel="stylesheet" type="text/css">
+    <link href="./css/event.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,7 +35,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="logo" class="pull-left" href="index.html"><img src="img/esi_logo_transparent.png" /></a>
+                <a href="./index.html" id="logo" class="pull-left">
+                    <img src="img/logo/esi_logo_transparent.png" />
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse pull-right" id=".navbar-collapse">
@@ -42,12 +46,12 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="./League.html">League of Legends</a></li>
-                            <li><a href="./SSB.html">Super Smash Bros</a></li>
-                            <li><a href="./Dota2.html">Dota 2</a></li>
-                            <li><a href="./Starcraft.html">Starcraft 2</a></li>
-                            <li><a href="./Hearthstone.html">Hearthstone</a></li>
-                            <li><a href="./Sports.html">Fifa / Madden / Sports </a></li>
+                            <li><a href="./league.html">League of Legends</a></li>
+                            <li><a href="./smash.html">Super Smash Bros</a></li>
+                            <li><a href="./dota2.html">Dota 2</a></li>
+                            <li><a href="./starcraft.html">Starcraft 2</a></li>
+                            <li><a href="./hearthstone.html">Hearthstone</a></li>
+                            <li><a href="./sports.html">Fifa / Madden / Sports </a></li>
                         </ul>
                     </li>
                     <li><a href="./about-us.html">About Us</a></li>
@@ -62,126 +66,107 @@
     </nav>
 
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <center><img class="center" src="img/fundraisingEventsEdited.jpg" alt ="" /></center>
-                <div class="carousel-caption">
-                    <h2>Tournaments & Events</h2>
-                </div>
-            </div>
-            <div class="item">
-                <center><img class="center" src="img/shuffle5pic1.jpeg" alt ="" /></center>
-                <div class="carousel-caption">
-                    <h2>Shuffle - The OSU Smash tournament</h2>
-                </div>
-            </div>
-            <div class="item">
-                <center><img class="center" src="img/charityEdited.jpg" alt ="" /></center>
-                <div class="carousel-caption">
-                    <h2>ESI proceeds support Nationwide Children's Hospital</h2>
-                </div>
-            </div>
-            <div class="item">
-                <center><img class="center" src="img/shuffle5pic2.jpg" alt ="" /></center>
-                <div class="carousel-caption">
-                    <h2>Shuffle 5</h2>
-                </div>
-            </div>            
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
+    <header>
+        <div style="height:60px"></div>
+        <h1 class="greenify center-text">About the eSports Initiative</h1>
+        <div style="height:20px"></div>
     </header>
 
     <div class="content">
-    <!-- Charity -->
+    <!-- About Us -->
     <section>
-    	<div class="center-text">
-    		<h1>Events</h1>
-    		<div class="charity-bar"><h2>$$$$$$</h2></div>
-    	</div>    	
+        <div>
+            <h3>Our Mission</h3>
+            <div class="indent">
+                <p>eSports Initiative works to bring together recreational and competitive video game players, as well as the digital media industry, to raise money for local and national causes. We work to beneficially impact the community while maintaining a positive image of the industry and its consumers. More directly, we hold video game events and tournaments to raise funds for charity and we volunteer in the local Columbus community all while improving the Midwest eSports scene.</p>
+            </div>
+        </div>
+        <div class="col-2-group">
+            <div class="text">
+                <h3>Description: <span class="smallify">Current goals</span></h3>
+                <div class="indent">
+                    <p>The eSports Initiative are to empower local Columbus-area students to study STEM (science, technology, engineering, and math)-related fields, and to build a giving community with gaming as its focal point.</p>
+                </div>
+            </div>
+            <div class="pic">
+                <span><img src="./img/logo/esilogo-leaf-small.png"></span>           
+            </div>
+            <div class="pic">
+                <span><img src="./img/events/staff_stuff/Awards Banquet 2013.jpg"></span>           
+            </div>
+            <div class="text">
+                <h3>Who makes ESI?</h3>
+                <div class="indent">
+                    <p>The eSports Initiative is made up of Faculty, past graduates, and Ohio State University students.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="center-text underline"><h2>Leadership Team<h2></div>
+        
+        <div class="col-2-group">
+            <div class="equal">
+                <h3>Exuctive Team</h3>
+                <ul>
+                    <li>President: <span class="smallify greenify">Brett Hutton</span></li>
+                    <li>Executive Vice President: <span class="smallify greenify">Derek Spinell</span></li>
+                    <li>Treasurer: <span class="smallify greenify">Deshannon Davon Gilbert</span></li>
+                    <li>Event Programming Chairs: <span class="smallify greenify">Mark Ebert</span></li>
+                    <li>Community Outreach Chair: <span class="smallify greenify">Alex Chen</span></li>
+                    <li>Marketing Chair: <span class="smallify greenify">Jeff Kikel</span></li>
+                    <li>Recruitment Chair: <span class="smallify greenify">Reasey Hem</span></li>
+                    <li>Webmaster: <span class="smallify greenify">David Soller</span></li>
+                </ul>
+            </div>
+            <div class="equal">
+                <h3>Board of Directors</h3>
+                <ul>
+                    <li>Dr. Deb Grzybowski</li>
+                    <li>Ray Tan</li>
+                    <li>David Wu</li>
+                    <li>Stephen Cassidy</li>
+                </ul>
+            </div>
+
+        </div>
     </section>
     
-    <!-- Events & News -->
-    <section>
-    	<div class="col-2-group">
-    		<div> <!-- Events -->
-    			<h1>Events</h1>
-    			<ul>
-    				<li></li>
-    			</ul>
-    		</div>
-    		<div> <!-- News / Social Media -->
-    			<h1>Social Media</h1>
-    			<ul>
-    				<li></li>
-    			</ul>
-    		</div>
-    	</div>
+    <!-- Reminder -->
+    <section class="remove-a center-text">
+        <a href="./feedback.html">
+            <h3>Want to get involved?</h3>
+            <h4><span class="smallify">Find out how [<span class="see-more">more</span>]</span></h4>
+        </a>
     </section>
 
-    <section>
-    	<div class="col-3-group">
-		    <div>
-			    <!-- <img src="fundraisingEventsEdited.jpg"> -->
-			    <h4>Fundraising Events</h4>
-			    <p>At the heart of E-Sports Initiative and its nonprofit mission is a sustainable source of financial support: our video game tournaments and events. These fundraisers provide an environment for a community of both casual and competitive video game players to compete for prizes and support our causes- we thank you for your continued patronage.</p>
-		    </div>
-		    <div>
-		    	<!-- <img src="industryNewsEdited.jpg"> -->
-		    	<h4>Industry News</h4>
-		    	<p>E-Sports Initiative provides news coverage of upcoming trends, innovations, and the rapidly-changing landscape in the video game and e-sports industries. We are committed to providing unbiased reporting to best prepare our readership and aspiring next-generation employees for a professional career in these industries.</p>
-		    </div>
-		    <div>
-		    	<!-- <img src="charityEdited.jpg"> -->
-		    	<h4>Community Service Events</h4>
-		    	<p>As E-Sports Initiative continues to grow, so does its commitment to community; we espouse social responsibility in tandem to our nonprofit mission. We recognize that there are more ways to give back than simply monetary contributions- learn more about our ongoing community service events and how you can be a part of a legacy of paying it forward!</p>
-		    </div>
-	  </div>
+    <div class="center" style="width:80%"><hr /></div>
 
-    </section>	
-	
-	<footer>
-		<div>
-			<div style="float:left; width: 100px">
-				<img src="img/esi_logo_transparent.png" />
-			</div>
-			<div style="float:left">
-				<p>&copy; E-Sports Initiative, 2014</p>
-			</div>
-			<div style="float:right" >
-				<ul class="list-inline">
-					<li><a href="/events.html">Events</a></li>
+    <footer>
+        <div>
+            <div class="footer-image">
+                <span><img src="./img/logo/esi_logo_transparent.png" /></span>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; E-Sports Initiative, 2014</p>
+            </div>
+            <div class="footer-links">
+                <ul class="list-inline">
+                    <li><a href="./events.html">Events</a></li>
                     
-                    <li><a href="/about-us.html">About Us</a></li>
-                    <li><a href="/sponsors.html">Sponsors</a></li>
-                    <li><a href="/feedback.html">Feedback</a></li>
-                    <li><a href="/join.html">Join ESI</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./sponsors.html">Sponsors</a></li>
+                    <li><a href="./feedback.html">Feedback</a></li>
+                    <li><a href="./join.html">Join ESI</a></li>
                 </ul>
-				</ul>
-			</div>
-		</div>
-	</footer>
-	</div> <!-- End of Content div -->
-	
-	<!-- Bootstrap core JavaScript -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div> <!-- End of Content div -->
+    
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -3,23 +3,41 @@
  *
  *
  */
-.pic:hover {
+.equal-pic:hover {
   background-color: #F1F1F1;
+  width: inherit;
+  height: inherit;
 }
 .col-2-group > .pic {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 2%;
 }
+.col-2-group > .equal-pic {
+  width: 200px;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+
 @media (max-width: 619px) and (min-width: 400px) {
+  .col-2-group {
+    overflow: hidden;
+  }
   .col-2-group > .pic {
     float: left;
     width: 50%;
   }
-  .col-2-group > .equal {
+  .col-2-group > .equal-pic {
     float: left;
     width: 50%;
+    height: inherit;
     padding: 2%;
+  }
+  .col-2-group > .equal {
+    clear: left;
   }
   .col-2-group > .text {
     clear: left;
@@ -44,6 +62,12 @@
     width: 50%;
     padding: 2%;
   }
+  .col-2-group > .equal-pic {
+    float: left;
+    width: 50%;
+    height: inherit;
+    padding: 2%;
+  }
   .col-2-group > div:nth-child(odd) {
     clear: left;
   }
@@ -56,6 +80,9 @@
 }
 
 @media (max-width: 1039px) and (min-width: 620px) {
+  .col-3-group {
+    overflow: hidden;
+  }
   .col-3-group > div {
     float: left;
     width: 50%;

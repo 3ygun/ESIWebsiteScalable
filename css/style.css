@@ -16,7 +16,7 @@ body {
 }
 footer {
 	width: inherit;
-	height: 60px;
+	height: 85px;
 	padding: 2%;
 }
 section {
@@ -32,7 +32,7 @@ section {
 @media screen and (min-width: 1040px) { /* So if it's a big screen, I only take a little place */
 	footer {
 		width: 1030px;
-		height: 60px;
+		height: 70px;
 		padding: 15px;
 	}
 
@@ -47,14 +47,15 @@ section {
 		margin-right: auto;
 	}
 }
+span {
+	width: 100%;
+
+}
 
 
 /* General Format */
 .indent {
 	margin-left: 20px;
-}
-.remove-textstyle {
-	color: inherit;
 }
 .greenify {
 	color: #009933;
@@ -77,6 +78,13 @@ section {
 }
 .underline {
 	text-decoration: underline;
+}
+.remove-a a {
+	color: inherit;
+	text-decoration: none;
+}
+.remove-a-not-u a {
+	color: inherit;
 }
 
 
@@ -150,7 +158,6 @@ header.carousel .fill {
 
 
 /* Footer Bar */
-
 .footer-copyright {
 	float:left;
 }
@@ -163,4 +170,8 @@ header.carousel .fill {
 }
 .footer-links > ul > li > a:hover {
 	color: #009933;
+}
+.footer-image {
+	float: left;
+	width: inherit;
 }
