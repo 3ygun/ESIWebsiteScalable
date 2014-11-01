@@ -16,7 +16,7 @@ body {
 }
 footer {
 	width: inherit;
-	height: 60px;
+	height: 85px;
 	padding: 2%;
 }
 section {
@@ -25,14 +25,13 @@ section {
 }
 .content {
 	width: 96%;
-	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
 }
 @media screen and (min-width: 1040px) { /* So if it's a big screen, I only take a little place */
 	footer {
 		width: 1030px;
-		height: 60px;
+		height: 70px;
 		padding: 15px;
 	}
 
@@ -42,19 +41,19 @@ section {
 	}
 	.content {
 		width: 1030px;
-		background-color: #FFFFFF;
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+span {
+	width: 100%;
+
 }
 
 
 /* General Format */
 .indent {
 	margin-left: 20px;
-}
-.remove-textstyle {
-	color: inherit;
 }
 .greenify {
 	color: #009933;
@@ -77,6 +76,19 @@ section {
 }
 .underline {
 	text-decoration: underline;
+}
+.remove-a a {
+	color: inherit;
+	text-decoration: none;
+}
+.remove-a-not-u a {
+	color: inherit;
+}
+.white {
+	background-color: #FFFFFF;
+}
+.green {
+	background: linear-gradient(to right, #009933, #FFFFFF, #FFFFFF, #FFFFFF, #009933);
 }
 
 
@@ -150,7 +162,6 @@ header.carousel .fill {
 
 
 /* Footer Bar */
-
 .footer-copyright {
 	float:left;
 }
@@ -163,4 +174,8 @@ header.carousel .fill {
 }
 .footer-links > ul > li > a:hover {
 	color: #009933;
+}
+.footer-image {
+	float: left;
+	width: inherit;
 }
