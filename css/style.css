@@ -25,7 +25,6 @@ section {
 }
 .content {
 	width: 96%;
-	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -42,7 +41,6 @@ section {
 	}
 	.content {
 		width: 1030px;
-		background-color: #FFFFFF;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -85,6 +83,12 @@ span {
 }
 .remove-a-not-u a {
 	color: inherit;
+}
+.white {
+	background-color: #FFFFFF;
+}
+.green {
+	background: linear-gradient(to right, #009933, #FFFFFF, #FFFFFF, #FFFFFF, #009933);
 }
 
 
